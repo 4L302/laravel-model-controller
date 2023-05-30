@@ -18,6 +18,7 @@
 <body>
     <main class="bg-light">
         <div class="container">
+            <h1 class="py-3 text-center">Movie List</h1>
             <div class="row">
                 <div class="col-12">
 
