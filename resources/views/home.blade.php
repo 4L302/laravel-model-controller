@@ -19,10 +19,12 @@
     <main class="bg-light">
         <div class="container">
             <h1 class="py-3 text-center">Movie List</h1>
-            <div class="row">
-                <div class="col-12">
-
-                </div>
+            <div>
+                @foreach($movies as $movie)
+                    <li>
+                        {{ $movie->title }}
+                    </li>
+                @endforeach
             </div>
         </div>
     </main>
